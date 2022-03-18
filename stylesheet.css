@@ -1,0 +1,388 @@
+/*Remember, # for id, . for class*/
+
+*{
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    width:100%;
+}
+
+#vice-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+
+}
+.parenting {
+    position: relative;
+}
+
+
+.pink-chunk {
+    background-color: #ffa5db;
+    color: #fdfbf6;
+    text-align:center;
+    margin-bottom: 3%;
+}
+
+#header-buttons {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    
+
+}
+
+.button-margin {
+    margin-left:2%;
+    margin-right:2%;
+
+}
+
+.red-footer {
+    background-color:#330000;
+    size:15rem;
+    color:#fdfbf6;
+    text-align:center;
+    font-family:"Manrope", sans-serif;
+    align-items:center;
+    padding-top: 1%;
+    padding-bottom:2%;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.email-signup {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#bimbo-checklist {
+    background-color: #e0218A;
+    width:100%;
+    background-image: url(https://static1.squarespace.com/static/609885e472e9d92bd63ad6a4/t/622fdb191821595804ca0ebe/1647303449409/sparkle-bg-1.gif);
+    background-repeat: repeat;
+    background-blend-mode: soft-light;
+    cursor:url(https://static1.squarespace.com/static/609885e472e9d92bd63ad6a4/t/622fe4ab7291ad63505dfbf3/1647305899634/cursor.gif), auto;    
+    color:#fdfbf6;
+    padding: 5% 5px 3% 10px;
+    margin-bottom:6%;
+    text-transform:uppercase;
+    font-family:"Dela Gothic One", sans-serif;
+    font-weight:700;
+    line-height: 2.5rem;  
+    letter-spacing: 0.1rem;
+    /*Rotate the div*/
+    -ms-transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+}
+
+.bimbo-wrapper {
+    width:100%;
+    overflow-x: hidden;
+    padding-top: 50px;
+}
+
+#bimbo-quote {
+    margin: auto;
+    margin-top:50px;
+    margin-bottom:50px;
+    background-color: #e0218A;
+    width:100%;
+    background-image: url(https://static1.squarespace.com/static/609885e472e9d92bd63ad6a4/t/622fdb2471db81765f9d9ea3/1647303460599/sparkle-bg-2.gif);
+    background-repeat: repeat;
+    background-blend-mode: soft-light;
+    cursor: url(https://static1.squarespace.com/static/609885e472e9d92bd63ad6a4/t/622fe4ab7291ad63505dfbf3/1647305899634/cursor.gif), auto;
+    padding: 5%;
+    margin-bottom:6%;
+
+    /*Rotate the div*/
+    -ms-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+}
+
+#bimbo-quote-text {
+    text-transform:uppercase;
+    color:#fdfbf6;
+    text-align:center;
+    padding-right:12%;
+
+}
+
+.big-quote {
+    width:70%;
+    margin: auto;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:50px;
+    font-weight:800;
+}
+
+
+
+.small-quote {
+    width:70%;
+    margin: auto;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:50px;
+    font-size:2.4rem;
+    font-weight:800;
+}
+
+.credit-paragraph {
+    text-align:center;
+    padding:4%;
+    font-family:"Manrope, serif";
+    font-weight:600;
+}
+
+.seventh-paragraph {
+    background-image: linear-gradient(0, #fff, #333000)
+}
+
+.glitter-pen {
+    color:#e0218A;
+    background-image: url("https://media.istockphoto.com/photos/sparkling-hot-pink-glitter-background-picture-id104292076?k=20&m=104292076&s=170667a&w=0&h=liToZJO91qT5UhwdmcUkQJ3bqJ1gROGK8r_m4gp1QVc=");
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-repeat:repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip:text;
+    background-clip:text;
+}
+
+.glitter-title {
+    font-family: "Dela Gothic One", sans-serif;
+    color:#e0218A;
+    background-image: url("https://media.istockphoto.com/photos/sparkling-hot-pink-glitter-background-picture-id104292076?k=20&m=104292076&s=170667a&w=0&h=liToZJO91qT5UhwdmcUkQJ3bqJ1gROGK8r_m4gp1QVc=");
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-repeat:repeat;
+    -webkit-text-fill-color: #e0218A; 
+    -webkit-background-clip: text;
+    -moz-background-clip:text;
+    background-clip:text;
+}
+
+@media (min-width: 900px) {
+    .glitter-text {
+        color:#e0218A;
+        background-image: url("https://media.istockphoto.com/photos/sparkling-hot-pink-glitter-background-picture-id104292076?k=20&m=104292076&s=170667a&w=0&h=liToZJO91qT5UhwdmcUkQJ3bqJ1gROGK8r_m4gp1QVc=");
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-repeat:repeat;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -moz-background-clip:text;
+        background-clip:text;
+    }
+}
+
+@media (max-width: 900px) {
+    .glitter-text {
+        opacity:0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .bimbo-doodles {
+        opacity:0;
+    }
+
+    .bimbo-doodles-2 {
+        opacity:0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .third-paragraph {
+        width: 100%; margin-left: 0;
+    }
+}
+
+@media (min-width:1200px) {
+    
+    #line-break {
+        opacity:0;
+    }
+}
+
+
+#article-caption {
+    text-align:center;
+}
+
+#editorial-love {
+    position:absolute;
+    z-index:5;
+    left:90px;
+    top:5px;
+     /*Rotate the div*/
+     -ms-transform: rotate(-17deg);
+     -webkit-transform: rotate(-17deg);
+}
+
+#editorial-slur {
+    position:absolute;
+    z-index:5;
+    bottom:240px;
+    left:170px;
+        /*Rotate the div*/
+        -ms-transform: rotate(-20deg);
+        -webkit-transform: rotate(-20deg);
+}
+
+#editorial-actualisation {
+    position:absolute;
+    padding-left: 200px;
+    padding-top:-100px;
+}
+
+#editorial-radical {
+    position: absolute;
+    text-align:left;
+    top:2870px;
+    left:950px;
+    /*Rotate the div*/
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+}
+
+.rel-parent {
+    position: relative;
+}
+
+#editorial-empowerment {
+    position: absolute;
+    text-align:right;
+    bottom:30;
+    right:0;
+    z-index:5;
+    -ms-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+}
+
+input {
+    float: left;
+    margin-right:10px;
+    margin-top: 7px;
+}
+
+.material-icons-outlined {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+  #footer-text {
+      text-align:center;
+      width:20%;
+  }
+
+  .pink-highlight {
+    color:#e0218A;
+    font-family:"Manrope", sans-serif;
+    font-weight:800;
+  }
+  
+  /* On screens that are 750px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 100%;
+    }
+
+    #title {
+        margin-top:10%;
+    }
+
+    .bimbo-wrapper {
+        padding-top:10px;
+    }
+
+    #bimbo-checklist {
+      padding: 9% 1px 1% 5px;
+      margin-bottom:8%;
+    }
+
+    .bimbo-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:50%;
+        text-align:center;
+    }
+
+    blockquote tiktok-embed {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    }
+
+  }
+
+#Vice-Logo {
+    animation-name: spin;
+  animation-duration: 7500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.bimbo-doodles {
+    position:absolute;
+    left:0;
+    margin-top:5%;
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+}
+
+.bimbo-doodles-2 {
+    position:absolute;
+    right:0;
+    margin-top:18%;
+    -ms-transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+}
